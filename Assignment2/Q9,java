@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+ class Q9 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter side: ");
+        int s = sc.nextInt();
+
+        float area = 0.433f * s * s;
+
+        System.out.println("Area = " + area + " cm²");
+    }
+}
